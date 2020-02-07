@@ -1,4 +1,5 @@
 import React from 'react'
+import './navigation.css'
 
 const Navigation = ()=>(
     <nav className="col-sm-2 col-3" id="myScrollspy">
