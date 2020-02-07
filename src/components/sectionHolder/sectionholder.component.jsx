@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { Component } from "react";
 
-import Section from '../section/section.component'
+import sectionData from "./sectionData";
 
-const SectionHolder = ()=>(
-    <div className="col-sm-10 col-9">
-      <Section/>
-    </div>
-);
+import Section from "../section/section.component";
+
+class SectionHolder extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      collections: sectionData
+    };
+  }
+
+  render() {
+    const { collections } = this.state;
+    return (
+      <div className="col-sm-10 col-9">
+        {collections.map(({ ...otherSecttionProps }) => (
+          <Section {...otherSecttionProps} />
+        ))}
+      </div>
+    );
+  }
+}
 
 export default SectionHolder;

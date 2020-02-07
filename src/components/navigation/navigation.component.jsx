@@ -1,8 +1,10 @@
 import React from 'react'
 import './navigation.css'
+import {Navbar} from 'reactstrap';
+
 
 const Navigation = ()=>(
-    <nav className="col-sm-2 col-3" id="myScrollspy">
+    <Navbar className="col-sm-2 col-3 bg-dark" id="myScrollspy">
         <ul className="nav nav-pills flex-column">
             <li className="nav-item">
                 <a className="nav-link" href="#section1">About Me</a>
@@ -17,7 +19,7 @@ const Navigation = ()=>(
                 <a className="nav-link" href="#section4">Skills</a>
             </li>
         </ul>
-    </nav>
+    </Navbar>
 );
 
 export default Navigation;

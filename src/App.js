@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import {Button} from 'reactstrap';
 import Navigation from './components/navigation/navigation.component'
 import SectionHolder from './components/sectionHolder/sectionholder.component'
 
