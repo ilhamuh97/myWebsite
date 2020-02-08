@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactComponent as Wave } from "../../assets/bioWave.svg";
+
 import PhotoProfile from "../../assets/photoProfile.jpeg";
 import "./biodata.css";
 
