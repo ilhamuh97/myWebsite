@@ -2,7 +2,10 @@ import React, { Component } from "react";
 
 import sectionData from "./sectionData";
 
-import Section from "../section/section.component";
+import Biodata from "../biodata/Biodata";
+import Education from "../education/Education";
+import JobExperience from "../jobExperience/JobExperience";
+import "../../assets/section.css";
 
 class SectionHolder extends Component {
   constructor(props) {
@@ -16,10 +19,10 @@ class SectionHolder extends Component {
   render() {
     const { collections } = this.state;
     return (
-      <div className="col-sm-9 col-8 px-0">
-        {collections.map(({ ...otherSecttionProps }) => (
-          <Section {...otherSecttionProps} />
-        ))}
+      <div className="col-sm-10 col-9 px-0">
+        <Biodata />
+        <Education />
+        <JobExperience />
       </div>
     );
   }

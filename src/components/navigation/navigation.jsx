@@ -3,7 +3,7 @@ import "./navigation.css";
 import { Navbar } from "reactstrap";
 
 const Navigation = () => (
-  <Navbar className="col-sm-3 col-4 bg-dark" id="myScrollspy">
+  <Navbar className="col-sm-2 col-3 bg-light nav" id="myScrollspy">
     <ul className="nav nav-pills flex-column">
       <li className="nav-item">
         <a className="nav-link" href="#section1">
@@ -28,5 +28,10 @@ const Navigation = () => (
     </ul>
   </Navbar>
 );
+
+/*TODO:
+ * set acitve to recognize location to user
+ * animation
+ */
 
 export default Navigation;

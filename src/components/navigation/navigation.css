@@ -1,4 +1,7 @@
 ul.nav-pills {
-    top: 20px;
-    position: fixed;
+  top: 25%;
+  position: fixed;
+}
+li {
+  margin: 5px;
 }

@@ -1,0 +1,22 @@
+.biodata {
+  height: 100vh;
+  position: relative;
+}
+
+.bio-info {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 35%;
+  height: 35%;
+  border-radius: 50%;
+  padding: 1px;
+  border: 1px solid #021a40;
+}
