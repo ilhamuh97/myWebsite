@@ -16,7 +16,7 @@ class SectionHolder extends Component {
   render() {
     const { collections } = this.state;
     return (
-      <div className="col-sm-10 col-9">
+      <div className="col-sm-9 col-8 px-0">
         {collections.map(({ ...otherSecttionProps }) => (
           <Section {...otherSecttionProps} />
         ))}
