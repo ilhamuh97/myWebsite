@@ -6,7 +6,7 @@ import SectionHolder from "./components/sectionHolder/sectionholder";
 function App() {
   return (
     <div
-      className="row"
+      className="row m-0"
       data-spy="scroll"
       data-target="#myScrollspy"
       data-offset="1"
