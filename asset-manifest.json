@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.f948d087.chunk.css",
-    "main.js": "/myWebsite/static/js/main.d4a1f671.chunk.js",
-    "main.js.map": "/myWebsite/static/js/main.d4a1f671.chunk.js.map",
-    "runtime-main.js": "/myWebsite/static/js/runtime-main.92616268.js",
-    "runtime-main.js.map": "/myWebsite/static/js/runtime-main.92616268.js.map",
-    "static/css/2.dc56c381.chunk.css": "/myWebsite/static/css/2.dc56c381.chunk.css",
-    "static/js/2.82b367c9.chunk.js": "/myWebsite/static/js/2.82b367c9.chunk.js",
-    "static/js/2.82b367c9.chunk.js.map": "/myWebsite/static/js/2.82b367c9.chunk.js.map",
-    "index.html": "/myWebsite/index.html",
-    "precache-manifest.79d1a9d71caf5a3351daa281cd807b1a.js": "/myWebsite/precache-manifest.79d1a9d71caf5a3351daa281cd807b1a.js",
-    "service-worker.js": "/myWebsite/service-worker.js",
-    "static/css/2.dc56c381.chunk.css.map": "/myWebsite/static/css/2.dc56c381.chunk.css.map",
-    "static/css/main.f948d087.chunk.css.map": "/myWebsite/static/css/main.f948d087.chunk.css.map",
-    "static/js/2.82b367c9.chunk.js.LICENSE.txt": "/myWebsite/static/js/2.82b367c9.chunk.js.LICENSE.txt",
-    "static/media/bioWave.945722ec.svg": "/myWebsite/static/media/bioWave.945722ec.svg",
-    "static/media/eduWave.4a1caa1b.svg": "/myWebsite/static/media/eduWave.4a1caa1b.svg",
-    "static/media/photoProfile.jpeg": "/myWebsite/static/media/photoProfile.3fc0b06e.jpeg"
+    "main.css": "/static/css/main.f948d087.chunk.css",
+    "main.js": "/static/js/main.35bfc103.chunk.js",
+    "main.js.map": "/static/js/main.35bfc103.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
+    "static/css/2.b29a8d76.chunk.css": "/static/css/2.b29a8d76.chunk.css",
+    "static/js/2.24fc4520.chunk.js": "/static/js/2.24fc4520.chunk.js",
+    "static/js/2.24fc4520.chunk.js.map": "/static/js/2.24fc4520.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.75638b1c15048bc09ec4c5840a05b123.js": "/precache-manifest.75638b1c15048bc09ec4c5840a05b123.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.b29a8d76.chunk.css.map": "/static/css/2.b29a8d76.chunk.css.map",
+    "static/css/main.f948d087.chunk.css.map": "/static/css/main.f948d087.chunk.css.map",
+    "static/js/2.24fc4520.chunk.js.LICENSE.txt": "/static/js/2.24fc4520.chunk.js.LICENSE.txt",
+    "static/media/bioWave.945722ec.svg": "/static/media/bioWave.945722ec.svg",
+    "static/media/eduWave.4a1caa1b.svg": "/static/media/eduWave.4a1caa1b.svg",
+    "static/media/photoProfile.jpeg": "/static/media/photoProfile.3fc0b06e.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92616268.js",
-    "static/css/2.dc56c381.chunk.css",
-    "static/js/2.82b367c9.chunk.js",
+    "static/js/runtime-main.107bb8ca.js",
+    "static/css/2.b29a8d76.chunk.css",
+    "static/js/2.24fc4520.chunk.js",
     "static/css/main.f948d087.chunk.css",
-    "static/js/main.d4a1f671.chunk.js"
+    "static/js/main.35bfc103.chunk.js"
   ]
 }
